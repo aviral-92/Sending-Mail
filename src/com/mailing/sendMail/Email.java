@@ -1,4 +1,4 @@
-package com.mail.sendMail;
+package com.mailing.sendMail;
 
 import java.util.Properties;
 
@@ -34,9 +34,8 @@ public class Email {
 			Message message = new MimeMessage(session);
 			message.setFrom(new InternetAddress("aviralmittal@srydada.96.lt"));
 
-			InternetAddress[][] internetAddressesArray = { InternetAddress.parse("agg.mahima@gmail.com"),
-					InternetAddress.parse("rinkuvatscs@gmail.com"), InternetAddress.parse("satendergautam@gmail.com"),
-					InternetAddress.parse("aviralmittal2012@gmail.com") };
+			InternetAddress[][] internetAddressesArray = { InternetAddress.parse("agg.mahima@gmail.com")
+					 };
 
 			// InternetAddress[] internetAddresses =
 			// InternetAddress.parse("agg.mahima@gmail.com");
